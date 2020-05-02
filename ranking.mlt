@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mlt LC_NUMERIC="C" version="6.21.0" title="Shotcut version 20.04.12" producer="main_bin">
   <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
-  <producer id="producer0" in="00:00:00.000" out="03:59:59.983">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">D:/Document/My Video/SAOMD-Ranking/Title.png</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2020-05-02T11:21:43</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">d2efa540ef0cda409c429cb11b1d6309</property>
-  </producer>
   <producer id="producer1" in="00:00:00.000" out="00:01:11.850">
     <property name="length">00:01:11.867</property>
     <property name="eof">pause</property>
@@ -193,7 +179,6 @@
   </producer>
   <playlist id="main_bin">
     <property name="xml_retain">1</property>
-    <entry producer="producer0" in="00:00:00.000" out="00:00:03.983"/>
     <entry producer="producer1" in="00:00:00.000" out="00:01:11.850"/>
     <entry producer="producer2" in="00:00:00.000" out="00:00:03.983"/>
     <entry producer="producer3" in="00:00:00.000" out="00:00:03.983"/>
@@ -207,17 +192,17 @@
     <entry producer="producer11" in="00:00:00.000" out="00:00:03.983"/>
     <entry producer="producer12" in="00:00:00.000" out="00:00:03.983"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:00:00.000">
-    <property name="length">00:00:00.017</property>
+  <producer id="black" in="00:00:00.000" out="00:02:35.533">
+    <property name="length">00:02:35.550</property>
     <property name="eof">pause</property>
-    <property name="resource">0</property>
+    <property name="resource">D:/Document/My Video/SAOMD-Ranking/0</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgb24a</property>
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="black" in="00:00:00.000" out="00:02:35.533"/>
   </playlist>
   <producer id="producer13" in="00:00:00.000" out="00:01:11.850">
     <property name="length">00:01:11.867</property>
@@ -404,7 +389,7 @@
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
-      <property name="resource">%luma01.pgm</property>
+      <property name="resource">D:/Document/My Video/SAOMD-Ranking/%luma01.pgm</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
       <property name="progressive">1</property>
@@ -550,7 +535,7 @@
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
-      <property name="resource">%luma01.pgm</property>
+      <property name="resource">D:/Document/My Video/SAOMD-Ranking/%luma01.pgm</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
       <property name="progressive">1</property>
@@ -660,7 +645,7 @@
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
-      <property name="resource">%luma01.pgm</property>
+      <property name="resource">D:/Document/My Video/SAOMD-Ranking/%luma01.pgm</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
       <property name="progressive">1</property>
@@ -770,7 +755,7 @@
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
-      <property name="resource">%luma01.pgm</property>
+      <property name="resource">D:/Document/My Video/SAOMD-Ranking/%luma01.pgm</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
       <property name="progressive">1</property>
@@ -881,7 +866,7 @@
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
-      <property name="resource">%luma01.pgm</property>
+      <property name="resource">D:/Document/My Video/SAOMD-Ranking/%luma01.pgm</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
       <property name="progressive">1</property>
@@ -993,7 +978,7 @@
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
-      <property name="resource">%luma01.pgm</property>
+      <property name="resource">D:/Document/My Video/SAOMD-Ranking/%luma01.pgm</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
       <property name="progressive">1</property>
@@ -1103,7 +1088,7 @@
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
-      <property name="resource">%luma01.pgm</property>
+      <property name="resource">D:/Document/My Video/SAOMD-Ranking/%luma01.pgm</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
       <property name="progressive">1</property>
@@ -1213,7 +1198,7 @@
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="factory">loader</property>
-      <property name="resource">%luma01.pgm</property>
+      <property name="resource">D:/Document/My Video/SAOMD-Ranking/%luma01.pgm</property>
       <property name="mlt_service">luma</property>
       <property name="alpha_over">1</property>
       <property name="progressive">1</property>
